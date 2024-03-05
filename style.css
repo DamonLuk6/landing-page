@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    min-height: 100vh;
 }
 
 .header {
@@ -18,6 +19,7 @@ body {
     display: flex;
     flex-direction:column;
     flex-basis: 425px;
+    flex-wrap: wrap;
 }
 
 .right-header {
@@ -66,4 +68,48 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.secondContainer {
+    text-align: center;
+    height: 450px;
+}
+
+.second-title {
+    padding: 45px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.individualbox {
+    max-width: 200px;
+}
+
+.roundCornerBox {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    margin: 25px;
+}
+
+.thirdContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-basis: 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
 }
