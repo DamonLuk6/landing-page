@@ -42,7 +42,7 @@ button {
 }
 
 .logo, .title {
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .links, .subtext {
@@ -113,3 +113,43 @@ a {
     font-style: italic;
     color: #1f2937
 }
+
+.fourthContainer {
+    display: flex;
+    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background-color: #3882F6;
+    padding: 35px 120px;
+    border-radius: 10px;
+}
+
+.left-side .title {
+    font-size: 20px;
+}
+
+.left-side .subtext {
+    font-size: 15px;
+}
+
+.modal .footerButton {
+    border: 2px solid #E8E8E8;
+    color: #E8E8E8;
+    padding: 8px 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    flex-basis: 75px;
+}
+
